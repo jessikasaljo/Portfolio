@@ -1,0 +1,31 @@
+.firstpage {
+    text-align: left;
+}
+
+.firstpage h1{
+    margin: 100px 0px 80px 100px;
+    font-size: 150px;
+}
+
+@media (max-width: 1150px) {
+    .firstpage h1 {
+        font-size: 110px;
+    }
+}
+
+@media (max-width: 950px) {
+    .firstpage h1{
+        margin-top: 130px;
+        margin-bottom: 30px;
+        font-size: 80px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 768px) {
+    .firstpage h1{
+        margin: 130px 0px 30px 0px;
+        font-size: 50px;
+        text-align: left;
+    }
+}
